@@ -1,5 +1,5 @@
 window.onload = function () {
-    if(navigator.userAgent.match(/Mobile|Windows Phone|Lumia|Android|webOS|iPhone|iPod|Blackberry|PlayBook|BB10|Opera Mini|\bCrMo\/|Opera Mobi/i)) window.location.href = "/device-not-supported/";
+    
     //Buttons
     document.getElementById('footer-btt-button').onclick = () => window.scroll({top: 0,behavior: 'smooth'});
     document.getElementById('home-button').onclick = () => window.location.href = '/';
