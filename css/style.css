@@ -1,0 +1,72 @@
+/* Body */
+*{margin: 0;padding: 0;}
+body {background-color: white;}
+
+/* Header */
+header#main-header {background-color: black;width: 100%;height: 64px; display: flex;justify-content: center;align-items: center;}
+div#header-main-div {width: 100%;height: 64px;}
+div#header-parallelogram {position: absolute;margin-left: -48px;width: 175px;height: 64px;transform: skew(20deg);background: red;}
+span#header-page-title {position: absolute;margin-top: 12px;margin-left: 18px;color: black;font-weight: bolder;font-family: monospace;font-size: 32px;}
+button.nav-button {height: 40px;width: 96px;font-size: 14px;font-family: monospace;border-width: 0;background: none;color: white;}
+button.nav-button:hover {animation: nav-hover-anim .5s 1 linear;background-color: gray;}
+button.nav-button:focus {animation: nav-unhover-anim .5s 1 linear;background: 0;}
+button#home-button {position: absolute;margin-top: 12px;margin-left: 60%;}
+button#info-button {position: absolute;margin-top: 12px;margin-left: 70%;}
+button#contact-button {position: absolute;margin-top: 12px;margin-left: 80%;}
+button#main-button {position: absolute;margin-top: 12px;margin-left: 90%;height: 40px;width: 96px;font-size: 14px;font-family: monospace;border-width: 0;background-color: red;color: black;}
+button#main-button:hover {animation: hover-anim .5s 1 linear;background-color: brown; }
+button#main-button:focus {animation: unhover-anim .5s 1 linear;background-color: red; }
+
+
+
+
+/* Footer */
+footer {background-color: black;width: 100%;height: 64px; display: flex;justify-content: center;align-items: center;}
+div#footer-main-div {width: 100%;height: 64px;}
+span#footer-copyright {position: absolute;margin-top: 24px;margin-left: 32px;color: gray;font-family: monospace;font-size: 16px;}
+img#footer-discord {position: absolute;margin-top: 22px;margin-left: 48.5%;color: grey;width: 22px;}
+img#footer-github {position: absolute;margin-top: 22px;margin-left: 51.5%;color: grey;width: 22px;}
+button#footer-btt-button {position: absolute;margin-top: 24px;margin-left: 90%;color: white;font-family: monospace;font-size: 16px;border-width: 0;background: 0;}
+
+
+/* Home page */
+div.typing-animation {width: 100%;height: 100vh;display: flex;justify-content: center;align-items: center;font-size: 3rem;}
+span#typing-animation0 {position: absolute; font-size: 1rem; font-weight: bolder; font-family: monospace; color: black; margin-top: -50vh; }
+span#typing-animation1 {font-size: 3rem; background-color: black; font-weight: bolder; font-family: monospace; color: white; margin-top: -30vh;}
+span.typing-animation2 {animation: typing-anim 0.5s infinite linear; margin-top: -30vh; font-size: 3rem;}
+span.desc {position: absolute; font-size: 1.5rem; background-color: black; font-weight: bolder; font-family: monospace; color: white; margin-top: -0vh;}
+span#desc1 {margin-top: -5vh;}
+span#desc2 {margin-top: 15vh;}
+span#desc3 {margin-top: 35vh;}
+span#desc4 {margin-top: 55vh;}
+
+div#useless-div { width: 100%; height: 15vh; background-color: #ddd; display: flex;justify-content: center;align-items: center;}
+span#main-about-page-title { position: absolute; margin-top: 20px; color: white; margin-left: 38%; font-size: 46px; font-weight: bolder; font-family: monospace;}
+div#useless-div2 { width: 100%; height: 10vh; background-color: #fff; }
+span#useless-span {position:absolute; font-size: 1.5rem; font-weight: bolder; font-family: monospace; color: white;}
+
+/* About page */
+main#a-main  { width: 100%; height: 85vh; display: flex; justify-content: center;align-items: center;}
+span#title-span {position: absolute; font-size: 2.5rem; font-weight: bolder; font-family: monospace; color: black; margin-top: -70vh;}
+span#content-span {position: absolute; font-size: 1rem; font-weight: bolder; font-family: monospace; color: black; margin-top: -55vh;}
+span#content-span2 {position: absolute; font-size: 1rem; font-weight: bolder; font-family: monospace; color: black; margin-top: -35vh;}
+span#content-span3 {position: absolute; font-size: 1rem; font-weight: bolder; font-family: monospace; color: black; margin-top: -5vh;}
+span#content-span4 {position: absolute; font-size: 1rem; font-weight: bolder; font-family: monospace; color: black; margin-top: 30vh;}
+
+/* Contact page*/
+main#c-main  { width: 100%; height: 85vh; display: flex; justify-content: center;align-items: center;}
+span#ctitle-span {position: absolute; font-size: 2.5rem; font-weight: bolder; font-family: monospace; color: black; margin-top: -70vh;}
+span#ccontent-span {position: absolute; font-size: 1rem; font-weight: bolder; font-family: monospace; color: black; margin-top: -45vh;}
+span#ccontent-span2 {position: absolute; font-size: 1rem; font-weight: bolder; font-family: monospace; color: black; margin-top: -25vh;}
+span#ccontent-span3 {position: absolute; font-size: 1rem; font-weight: bolder; font-family: monospace; color: black; margin-top: -5vh;}
+span#ccontent-span4 {position: absolute; font-size: 1rem; font-weight: bolder; font-family: monospace; color: black; margin-top: 30vh;}
+
+/* Animations */
+@keyframes typing-anim {0%,100% {opacity: 1;}50% {opacity: 0;}}
+@keyframes hover-anim {0% {background-color: red;}100% {background-color: brown;}}
+@keyframes unhover-anim {0% {background-color: brown;}100% {background-color: red;}}
+@keyframes nav-hover-anim {0% {background: none;opacity: 1;}100% {background-color:   gray;opacity: 0.75;}}
+@keyframes nav-unhover-anim {100% { background: none;opacity: 1;}0% {background-color:   gray;opacity: 0.75;}}
+
+
+
