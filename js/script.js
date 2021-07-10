@@ -4,7 +4,7 @@ window.onload = function () {
     document.getElementById('footer-btt-button').onclick = () => window.scroll({top: 0,behavior: 'smooth'});
     document.getElementById('home-button').onclick = () => window.location.href = '/';
     document.getElementById('info-button').onclick = () => window.location.href = '/about/';
-    document.getElementById('contact-button').onclick = () => window.location.href = '/contact/';
+    document.getElementById('contact-button').onclick = () => window.location.href = '/projects/';
     document.getElementById('main-button').onclick = () => window.location.href = 'https://www.github.com/fiktx/' ;
     document.getElementById('footer-github').onclick = () => window.location.href = 'https://www.github.com/fiktx/' ;        
     document.getElementById('footer-discord').onclick = () => window.location.href = 'https://discord.gg/RMzgM3CjWr' ;
