@@ -7,7 +7,7 @@ window.onload = function () {
     document.getElementById('contact-button').onclick = () => window.location.href = '/projects/';
     document.getElementById('main-button').onclick = () => window.location.href = 'https://www.github.com/fiktx/' ;
     document.getElementById('footer-github').onclick = () => window.location.href = 'https://www.github.com/fiktx/' ;        
-    document.getElementById('footer-discord').onclick = () => window.location.href = 'https://discord.gg/RMzgM3CjWr' ;
+    document.getElementById('footer-discord').onclick = () => window.location.href = 'https://fiktx.github.io/' ;
     //Typing animation
     var i = 0; type();
     setTimeout(() => {untype();}, 750);
